@@ -1,5 +1,3 @@
-// Copyright 2023. Mironenko Daniil
-
 #include <iostream>
 
 int main() {
