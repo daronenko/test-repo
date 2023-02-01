@@ -78,9 +78,9 @@ Blockquotes with Multiple Paragraphs
 Nested Blockquotes
 --
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
->> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+    > Dorothy followed her through many of the beautiful rooms in her castle.
+    >
+    >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
 #### Output:
 
@@ -107,7 +107,7 @@ Blockquotes with Other Elements
 >
 >  *Everything* is going according to **plan**.
 
-Ordered Lists:
+Ordered Lists
 --
 
     1. First item
@@ -168,7 +168,9 @@ Adding Elements in Lists
 - Here's the second list item.
 
     I need to add another paragraph below the second list item.<br>
+    
     > A blockquote would look great below the second list item.<br>
+    
     ![Tux, the Linux mascot](/tux.avif)
 
 - And here's the third list item.
@@ -209,15 +211,6 @@ Horizontal Rules
 #### Output:
 
 ---
-
-Links
---
-
-    My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-    
-#### Output:
-
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
 Links
 --
