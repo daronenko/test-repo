@@ -46,14 +46,16 @@ Emphasis
     Italicized text is the *cat's meow*.<br>
     I just love **bold text**.<br>
     This text is ***really important***.<br>
-    ~~The world is flat.~~ We now know that the world is round.
+    ~~The world is flat.~~ We now know that the world is round.<br>
+    Some of these words <ins>will be underlined</ins>.
 
 ##### Output:
 
 Italicized text is the *cat's meow*.<br>
 I just love **bold text**.<br>
 This text is ***really important***.<br>
-~~The world is flat.~~ We now know that the world is round.
+~~The world is flat.~~ We now know that the world is round.<br>
+Some of these words <ins>will be underlined</ins>.
 
 Blockquotes
 --
@@ -342,3 +344,54 @@ That is so funny! 😂
 ##### Note:
 
 [List of emoji shortcodes](https://gist.github.com/rxaviers/7360908)
+
+Comments
+--
+
+    Here's a paragraph that will be visible.
+
+    [This is a comment that will be hidden.]: # 
+
+    And here's another paragraph that's visible.
+
+###### Output:
+
+Here's a paragraph that will be visible.
+
+[This is a comment that will be hidden.]: # 
+
+And here's another paragraph that's visible.
+
+Admonitions
+--
+
+    > :warning: **Warning:** Do not push the big red button.
+
+    > :memo: **Note:** Sunrises are beautiful.
+
+    > :bulb: **Tip:** Remember to appreciate the little things in life.
+
+##### Output:
+
+> :warning: **Warning:** Do not push the big red button.
+
+> :memo: **Note:** Sunrises are beautiful.
+
+> :bulb: **Tip:** Remember to appreciate the little things in life.
+
+Table of Contents
+--
+
+#### Table of Contents
+
+    - [Task Lists](#task-lists)
+    - [Emoji](#emoji)
+    - [Comments](#comments)
+    - [Admonitions](#admonitions)
+
+##### Output:
+
+- [Task Lists](#task-lists)
+- [Emoji](#emoji)
+- [Comments](#comments)
+- [Admonitions](#admonitions)
