@@ -1,14 +1,14 @@
 # Heading level 1
 
-## Heading level 1
+## Heading level 2
 
-### Heading level 1
+### Heading level 3
 
-### Heading level 1
+### Heading level 4
 
-#### Heading level 1
+#### Heading level 5
 
-##### Heading level 1
+##### Heading level 6
 
 Heading level 1
 ==
@@ -114,7 +114,54 @@ Text
     - Indented item
 4. Fourth item
 
-Code:
+Code
 --
+
     At the command prompt, type `nano`.
+
 At the command prompt, type `nano`.
+
+Code Blocks
+--
+
+    ```html
+    <html>
+      <head>
+      </head>
+    </html>
+    ```
+
+ Output:
+
+```html
+<html>
+  <head>
+  </head>
+</html>
+```
+
+Horizontal Rules
+--
+
+    ***
+
+    ---
+    
+    ___
+
+Output:
+
+***
+
+---
+
+___
+
+Links
+--
+
+    My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+    
+#### Output:
+
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
