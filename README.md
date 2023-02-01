@@ -96,9 +96,25 @@ Text
 
 3. Update the title to match the name of your website.
 
+Text
+
 1. Open the file containing the Linux mascot.
 2. Marvel at its beauty.
 
-    ![Tux, the Linux mascot](/images/tux.png)
+    ![Tux, the Linux mascot](/tux.avif)
 
 3. Close the file.
+
+Text
+
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item
+
+Code:
+--
+    At the command prompt, type `nano`.
+At the command prompt, type `nano`.
